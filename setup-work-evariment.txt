@@ -1,0 +1,23 @@
+REM This is my first payload
+REM lets see what i can do!
+REM the objective is automating the process of opening the daily work flow 
+
+DELAY 1000
+ALT ENTER 
+DELAY 1500
+STRING cd Documents/worshop/tradeweb
+ENTER
+DELAY 500
+STRING pyenv shell tradeweb-uv-env
+ENTER
+DELAY 500
+STRING code .
+ENTER
+DELAY 1500
+ALT LEFTARROW
+DELAY 500
+STRING git status 
+ENTER
+DELAY 500
+STRING Nice work wizard!
+ENTER
